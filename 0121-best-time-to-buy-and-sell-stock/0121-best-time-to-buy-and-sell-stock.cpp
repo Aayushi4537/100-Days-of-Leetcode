@@ -11,7 +11,7 @@ public:
               
             }
             profit= prices[i]- buyingrate;
-            if(profit>maxprofit) maxprofit=profit;
+            if(profit>maxprofit) maxprofit=profit; //  maxprofit=max(profit, maxprofit)
             
         }
        
